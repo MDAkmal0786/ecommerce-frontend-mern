@@ -1,0 +1,68 @@
+.shipping-box { 
+    form{
+
+    max-width: 20rem;
+    margin: auto;
+   
+    display: flex;
+    flex-direction: column;
+  
+
+    >h2{
+        font-weight: 200;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    >input , select{
+        outline: none;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid #cccccc;
+        margin-top: 1rem;
+        
+    }
+
+    >input[type="submit"]{
+
+        background-color: #006888;
+        color: white;
+        cursor: pointer;
+    }
+
+    
+}
+.shipping-back{
+    position: absolute;
+    left:1rem;
+    top: 1rem;
+
+  
+    border: none;
+    background-color: black;
+    color: white;
+
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    padding: 1.5rem;
+
+    display: grid;
+    place-content: center;
+
+    font-size: large;
+    cursor: pointer;
+
+    transition: all 0.3s;
+
+    &:hover {
+
+        svg{
+            translate: -5px;
+        }
+      
+    }
+    
+}
+    
+}

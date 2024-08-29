@@ -1,0 +1,19 @@
+.checkout-box{
+    display: flex;
+    justify-content: center;
+    >form{
+    width: 25rem;
+    >button{
+        margin-top: 3rem;
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        border-radius: 5px;
+        font-size: large;
+        letter-spacing: 2px;
+        background-color:#006888;
+        color: white;
+        cursor: pointer;
+    }
+    }
+}

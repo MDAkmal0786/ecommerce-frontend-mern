@@ -1,0 +1,54 @@
+.header{
+ 
+    display: flex;
+    gap: 1.2rem;
+    justify-content: flex-end;
+    align-items: stretch;
+
+    padding: 1rem;
+    font-size: larger;
+    opacity: 0.85;
+    div{
+        letter-spacing: 2px;
+        &:hover{
+            color: #009999;
+        }
+    }
+    
+    svg:hover{
+        color: #009999;
+    }
+
+    button{
+        border: none;
+        background-color: white;
+        font-size: 19px;
+        &:hover{
+            color: #009999;
+        }
+    }
+
+    dialog{
+            border: 1px solid gray;
+            border-radius: 5px;
+          
+            padding: 0.8rem;
+          position: absolute;
+            top:3rem;
+            left: 92%;
+           
+            button{
+                margin-left: 1.5rem;
+            }
+          
+            
+           
+            
+    }
+cursor: pointer;
+   
+
+    
+   
+
+}

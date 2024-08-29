@@ -1,0 +1,26 @@
+.orders-box{
+    padding: 1rem;
+
+    >h1{
+
+        letter-spacing: 3px;
+        font-weight: 200;
+
+
+    }
+
+   
+
+    .order-table-class{  // custom table css
+        max-width: 80%;
+        margin: auto;
+        overflow-x: auto;
+        >h2{
+            margin-top: 2rem;
+            text-align: center;
+            letter-spacing: 2px;
+            font-weight: 200;
+        }
+    }
+
+}

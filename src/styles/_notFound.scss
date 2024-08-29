@@ -1,0 +1,21 @@
+.notFound-box{
+   display: grid;
+   place-items: center;
+   margin-top:7rem;
+
+   svg{
+    font-size: 4rem;
+   }
+
+   >div{
+    margin-top: 2rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2rem;
+    >h1{
+        font-size: 2.5rem;
+    }
+
+   }
+}

@@ -1,0 +1,114 @@
+.cart-box{
+    padding: 3rem 5rem;
+    display: flex;
+    
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: stretch;
+    height:92vh;
+
+
+    main{
+        max-width: 70%;
+       
+       
+
+       .cart-list{
+        margin-bottom: 2rem;
+       display: flex;
+       
+       
+       align-items: center;
+       gap: 4rem;
+       img{
+        max-height: 10rem;
+        max-width: 10rem;
+       }
+       article{
+       
+
+        p{
+            font-size: larger;
+            &:hover{
+                color: #006888;
+            }
+        }
+
+       }
+       button{
+        border: none;
+        padding: 0.4rem 0.8rem;
+        border-radius: 5px;
+        font-size: large;
+       }
+
+       .cart-buttons{
+    
+       
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        #quantity-buttons{
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+        
+
+       
+       .trash{
+        background-color: white;
+        margin-left: 1rem;
+        &:hover{
+            color: red;
+        }
+       }
+    }
+
+       }
+    }
+    aside{
+        max-width: 30%;
+        padding-top: 4rem;
+        padding-left: 4rem;
+        
+        >P{
+            margin-bottom: 1.5rem;
+            font-size: 17.5px;
+        }
+
+        >input{
+            padding: 1rem;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin-top: 3.5rem;
+            outline: none;
+        }
+        #checkout-cart{
+            margin-top: 1.5rem;
+           
+                width: 78%;
+                padding: 1rem;
+                border-radius: 5px;
+                border: none;
+                background-color: #006888;
+                color:white ;
+               
+
+                &:hover{
+                    opacity: 0.8;
+                }
+                cursor: pointer;
+               
+                font-size: 15px;
+                letter-spacing: 1.5px;    
+        }   
+    }
+}
+#noCartitem{
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-align: center;
+   }
