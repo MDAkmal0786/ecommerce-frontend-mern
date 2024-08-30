@@ -1,7 +1,7 @@
 # Ecommerce website with admin dashboard
 
 
-![Screenshot 2024-08-18 021853](https://github.com/user-attachments/assets/3510b143-1e02-4c6b-aed3-cd5c163a56ed)
+![Screenshot 2024-08-30 084710](https://github.com/user-attachments/assets/dd85d7b0-adf6-4a7b-85c9-9be59061f96d)
 
 
 A full stack ecommerce website  made using **TYPESCRIPT**
